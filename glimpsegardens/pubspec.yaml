@@ -35,6 +35,7 @@ dependencies:
   fluttertoast: ^8.0.7
   camera: ^0.5.8+17
   video_player: ^2.1.6
+  geolocator: ^7.2.0+1
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.

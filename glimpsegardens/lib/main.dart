@@ -9,6 +9,7 @@ import 'package:path_provider/path_provider.dart';
 import 'package:path/path.dart';
 import 'package:camera/camera.dart';
 import 'package:video_player/video_player.dart';
+import 'package:geolocator/geolocator.dart';
 
 void main() {
   runApp(const MyApp());

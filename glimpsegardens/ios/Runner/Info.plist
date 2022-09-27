@@ -47,6 +47,8 @@
 	<string>Glimpse needs to take and upload photos and videos to show on the platform.</string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>Glimpse needs to record audio while you take videos to upload.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Glimpse needs to access your location to show content near you.</string>
 	<key>NSAppTransportSecurity</key>
 	<dict>
 		<key>NSAllowsArbitraryLoads</key>
