@@ -27,6 +27,7 @@ import 'package:carousel_slider/carousel_slider.dart';
 import 'package:video_thumbnail/video_thumbnail.dart';
 import 'package:flutter_polyline_points/flutter_polyline_points.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
+import 'package:googleapis_auth/googleapis_auth.dart';
 
 void main() {
   runApp(const MyApp());

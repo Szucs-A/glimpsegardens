@@ -62,7 +62,7 @@ dependencies:
   image: ^3.0.2
   googleapis: any
   location: ^4.2.0
-  # googleapis_auth: any
+  googleapis_auth: any
   flutter_bloc: ^8.0.0
   validators: ^3.0.0
   # permission_handler: ^8.1.2
