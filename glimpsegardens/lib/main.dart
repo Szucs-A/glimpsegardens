@@ -16,6 +16,7 @@ import 'package:image_cropper/image_cropper.dart';
 import 'package:share_plus/share_plus.dart';
 import 'package:flutter_datetime_picker/flutter_datetime_picker.dart';
 import 'package:geocoding/geocoding.dart';
+import 'package:exif/exif.dart';
 
 void main() {
   runApp(const MyApp());
