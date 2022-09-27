@@ -22,6 +22,7 @@ import 'package:image/image.dart';
 import 'package:location/location.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:validators/validators.dart';
+import 'package:flutter_switch/flutter_switch.dart';
 
 void main() {
   runApp(const MyApp());
