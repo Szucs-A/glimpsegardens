@@ -24,6 +24,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:validators/validators.dart';
 import 'package:flutter_switch/flutter_switch.dart';
 import 'package:carousel_slider/carousel_slider.dart';
+import 'package:video_thumbnail/video_thumbnail.dart';
 
 void main() {
   runApp(const MyApp());
