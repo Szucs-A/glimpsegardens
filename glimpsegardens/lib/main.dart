@@ -8,6 +8,7 @@ import 'package:fluttertoast/fluttertoast.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:path/path.dart';
 import 'package:camera/camera.dart';
+import 'package:video_player/video_player.dart';
 
 void main() {
   runApp(const MyApp());
