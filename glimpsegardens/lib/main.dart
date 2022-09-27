@@ -21,6 +21,7 @@ import 'package:ffmpeg_kit_flutter_full_gpl/ffmpeg_kit.dart';
 import 'package:image/image.dart';
 import 'package:location/location.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:validators/validators.dart';
 
 void main() {
   runApp(const MyApp());
