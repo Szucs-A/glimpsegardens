@@ -25,6 +25,7 @@ import 'package:validators/validators.dart';
 import 'package:flutter_switch/flutter_switch.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:video_thumbnail/video_thumbnail.dart';
+import 'package:flutter_polyline_points/flutter_polyline_points.dart';
 
 void main() {
   runApp(const MyApp());
