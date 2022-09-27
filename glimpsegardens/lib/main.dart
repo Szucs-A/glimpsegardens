@@ -14,6 +14,7 @@ import 'package:geocoder/geocoder.dart';
 import 'package:email_validator/email_validator.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:http/http.dart';
 
 void main() {
   runApp(const MyApp());
