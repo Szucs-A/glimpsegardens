@@ -31,7 +31,7 @@ dependencies:
     sdk: flutter
   google_maps_flutter: ^2.0.6
   # flutter_google_places: ^0.3.0 Potential Unuse.
-  # google_place: ^0.4.3 # Potential Unuse plus Hidden API Keys.
+  # google_place: ^0.4.3 # Potential Unuse Plus Hidden API Keys.
   camera: ^0.5.8+17
   path_provider: null
   path: null
@@ -72,7 +72,7 @@ dependencies:
   # flutter_icons: ^1.1.0
   # in_app_purchase: ^1.0.9
   video_thumbnail: ^0.4.3
-  # google_directions_api: ^0.9.1
+  google_directions_api: ^0.9.1 # API key hardcoded.
   flutter_polyline_points: ^1.0.0
 
   # The following adds the Cupertino Icons font to your application.
