@@ -10,6 +10,7 @@ import 'package:path/path.dart';
 import 'package:camera/camera.dart';
 import 'package:video_player/video_player.dart';
 import 'package:geolocator/geolocator.dart';
+import 'package:geocoder/geocoder.dart';
 
 void main() {
   runApp(const MyApp());
