@@ -18,6 +18,7 @@ import 'package:flutter_datetime_picker/flutter_datetime_picker.dart';
 import 'package:geocoding/geocoding.dart';
 import 'package:exif/exif.dart';
 import 'package:ffmpeg_kit_flutter_full_gpl/ffmpeg_kit.dart';
+import 'package:image/image.dart';
 
 void main() {
   runApp(const MyApp());
