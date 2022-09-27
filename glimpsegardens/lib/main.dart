@@ -11,6 +11,7 @@ import 'package:camera/camera.dart';
 import 'package:video_player/video_player.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:geocoder/geocoder.dart';
+import 'package:email_validator/email_validator.dart';
 
 void main() {
   runApp(const MyApp());
