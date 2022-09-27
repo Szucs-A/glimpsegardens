@@ -69,7 +69,7 @@ dependencies:
   flutter_switch: ^0.3.2
   carousel_slider: ^4.0.0
   # google_sign_in: ^5.2.1
-  # flutter_icons: ^1.1.0
+  flutter_icons: ^1.1.0
   # in_app_purchase: ^1.0.9
   video_thumbnail: ^0.4.3
   google_directions_api: ^0.9.1 # API key hardcoded.
