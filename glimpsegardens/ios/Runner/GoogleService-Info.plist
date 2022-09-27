@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>113796492179-67ubpo4997vc6mavhgjib83dnjd0opk7.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.113796492179-67ubpo4997vc6mavhgjib83dnjd0opk7</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDvKw_Zn7rcuUO95Dz1CzJ2Omj3P5-hhmY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>113796492179</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.glimpsegardens.social</string>
+	<key>PROJECT_ID</key>
+	<string>glimpse-gardens</string>
+	<key>STORAGE_BUCKET</key>
+	<string>glimpse-gardens.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:113796492179:ios:812a0b2f009458597a5666</string>
+</dict>
+</plist>

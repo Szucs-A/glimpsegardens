@@ -30,8 +30,14 @@ import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:googleapis_auth/googleapis_auth.dart';
 import 'package:google_directions_api/google_directions_api.dart';
 import 'package:flutter_icons/flutter_icons.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:firebase_core/firebase_core.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
+  await Firebase.initializeApp();
+
   runApp(const MyApp());
 }
 

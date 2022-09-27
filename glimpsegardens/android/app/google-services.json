@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "113796492179",
+    "project_id": "glimpse-gardens",
+    "storage_bucket": "glimpse-gardens.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:113796492179:android:316eafb234be70bf7a5666",
+        "android_client_info": {
+          "package_name": "com.glimpsegardens.social"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "113796492179-djofm2vmp7s9n66a6110pc2qlccobnkd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4lCBsTLkQqY3_YrVDjnLGblwlltPUYsM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "113796492179-djofm2vmp7s9n66a6110pc2qlccobnkd.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "113796492179-67ubpo4997vc6mavhgjib83dnjd0opk7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.glimpsegardens.social"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
