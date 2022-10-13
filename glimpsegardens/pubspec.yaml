@@ -65,7 +65,7 @@ dependencies:
   googleapis_auth: any
   flutter_bloc: ^8.0.0
   validators: ^3.0.0
-  # permission_handler: ^8.1.2
+  permission_handler: ^8.1.2
   flutter_switch: ^0.3.2
   carousel_slider: ^4.0.0
   # google_sign_in: ^5.2.1
