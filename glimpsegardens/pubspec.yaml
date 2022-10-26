@@ -105,6 +105,66 @@ flutter:
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 
+  assets:
+    - assets/drawable/glimpse_logo.png
+    - assets/drawable/unanswered.png
+    - assets/drawable/opening3.gif
+    - assets/drawable/answered.png
+    - assets/drawable/uploading.gif
+    - assets/drawable/loading.gif
+    - assets/drawable/susan.gif
+    - assets/drawable/doot.gif
+    - assets/drawable/doot2.gif
+    - assets/drawable/Wumbo.png
+    - assets/drawable/followericon.png
+    - assets/drawable/popupimage.png
+    - assets/drawable/uploading-american.gif
+    - assets/drawable/loading-american.gif
+    - assets/drawable/answered-american.png
+    - assets/drawable/unanswered-american.png
+    - assets/drawable/Polling-location-Pin.png
+    - assets/drawable/error.gif
+    - assets/drawable/Bar.png
+    - assets/drawable/Beauty.png
+    - assets/drawable/Coffee.png
+    - assets/drawable/Grocery.png
+    - assets/drawable/Gym.png
+    - assets/drawable/Health.png
+    - assets/drawable/Hotel.png
+    - assets/drawable/Map Legend Icon.png
+    - assets/drawable/Restaurant.png
+    - assets/drawable/Shopping.png
+    - assets/drawable/Theatre.png
+    - assets/drawable/Tour.png
+    - assets/drawable/Services.png
+    - assets/drawable/white-static-logo.png
+    - assets/drawable/basic_logo.png
+    - assets/drawable/No-content.gif
+    - assets/drawable/Bar-M.png
+    - assets/drawable/Beauty-M.png
+    - assets/drawable/Coffee-M.png
+    - assets/drawable/Grocery-M.png
+    - assets/drawable/Gym-M.png
+    - assets/drawable/Health-M.png
+    - assets/drawable/Hotel-M.png
+    - assets/drawable/Restaurant-M.png
+    - assets/drawable/Services-M.png
+    - assets/drawable/Shopping-M.png
+    - assets/drawable/Theatre-M.png
+    - assets/drawable/Tour-M.png
+
+  fonts:
+    - family: CircularBold
+      fonts:
+        - asset: assets/font/CircularStd-Bold.otf
+        - asset: assets/font/CircularStd-BoldItalic.otf
+          style: italic
+    - family: Arial
+      fonts:
+        - asset: assets/font/arial_regular.ttf
+        - asset: assets/font/arial_bold.ttf
+          weight: 700
+
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
 
