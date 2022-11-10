@@ -515,33 +515,34 @@ const String mapStyle = '''[
     }
 ]''';
 
-/*
-
 List<BottomNavigationBarItem> navBottomListSeperate = [
   BottomNavigationBarItem(
-    icon: Icon(Icons.map),
+    icon: const Icon(Icons.map),
     label: currentLanguage[219],
   ),
   BottomNavigationBarItem(
-    icon: Icon(Icons.settings),
+    icon: const Icon(Icons.settings),
     label: currentLanguage[221],
   ),
 ];
 
 List<BottomNavigationBarItem> navBottomList = [
   BottomNavigationBarItem(
-    icon: Icon(Icons.map),
+    icon: const Icon(Icons.map),
     label: currentLanguage[219],
   ),
   BottomNavigationBarItem(
-    icon: Icon(Icons.camera_alt),
+    icon: const Icon(Icons.camera_alt),
     label: currentLanguage[220],
   ),
   BottomNavigationBarItem(
-    icon: Icon(Icons.settings),
+    icon: const Icon(Icons.settings),
     label: currentLanguage[221],
   ),
 ];
+
+/*
+
 
 bool codeValidation(String enteredCode) {
   if (enteredCode.split('-').length != 4) {
