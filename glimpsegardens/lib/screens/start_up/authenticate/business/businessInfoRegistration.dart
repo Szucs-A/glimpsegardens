@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:glimpsegardens/models/HoursOfOperation.dart';
+import 'package:glimpsegardens/models/TimeRanges.dart';
+import 'package:glimpsegardens/models/businessInformation.dart';
 import 'package:glimpsegardens/services/auth.dart';
 import 'package:glimpsegardens/screens/start_up/authenticate/business/businessOrUser.dart';
 import 'package:carousel_slider/carousel_slider.dart';
@@ -753,52 +756,4 @@ class _BusinessInfoRegistration extends State<BusinessInfoRegistration>
       debugShowCheckedModeBanner: false,
     );
   }
-}
-
-class BusinessInformation {
-  final String bname;
-  final String address;
-  final String website;
-  final String number;
-  final HoursOfOperation hours;
-  final int type;
-  final LatLng pos;
-
-  BusinessInformation({
-    this.bname,
-    this.address,
-    this.website,
-    this.hours,
-    this.type,
-    this.pos,
-    this.number,
-  });
-}
-
-class HoursOfOperation {
-  // Set to null for not open.
-  final List<TimeRanges> week;
-
-  HoursOfOperation({
-    this.week,
-  });
-}
-
-class TimeRanges {
-  String openTime;
-  String closeTime;
-
-  printMe() {
-    // ignore: avoid_print
-    print("openTime: " + openTime + " closeTime: " + closeTime);
-  }
-
-  String printMeBusiness() {
-    return "Open: " + openTime + " to " + closeTime;
-  }
-
-  TimeRanges({
-    this.openTime = "12:00 am",
-    this.closeTime = "12:00 am",
-  });
 }

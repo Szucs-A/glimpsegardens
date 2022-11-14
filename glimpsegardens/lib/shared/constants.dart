@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:glimpsegardens/screens/MapsHelper.dart';
 import 'dart:async';
 import 'package:glimpsegardens/services/database.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
@@ -15,6 +16,7 @@ import 'package:glimpsegardens/shared/languages/russian.dart';
 import 'package:glimpsegardens/shared/languages/tagalog.dart';
 import 'package:glimpsegardens/shared/languages/bangla.dart';
 import 'package:glimpsegardens/shared/languages/spanish.dart';
+import 'package:validators/validators.dart';
 
 class ConstantsClass {
   static bool businessAccount = false;
@@ -541,9 +543,6 @@ List<BottomNavigationBarItem> navBottomList = [
   ),
 ];
 
-/*
-
-
 bool codeValidation(String enteredCode) {
   if (enteredCode.split('-').length != 4) {
     return false;
@@ -677,7 +676,6 @@ Future<bool> testCodeLinkedToAccount(
 
   return true;
 }
-*/
 
 InputDecoration textInputDecoration = const InputDecoration(
   hintStyle: TextStyle(color: normalText),
