@@ -1,5 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:glimpsegardens/screens/start_up/authenticate/business/businessInfoRegistration.dart';
+import 'package:glimpsegardens/models/businessInformation.dart';
 import 'package:glimpsegardens/services/push_notification_service.dart';
 
 FirebaseFirestore firestore = FirebaseFirestore.instance;
