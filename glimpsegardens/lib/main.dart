@@ -6,6 +6,7 @@ import 'package:glimpsegardens/services/remote_config.dart';
 import 'package:provider/provider.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:glimpsegardens/models/user.dart';
+import 'package:apple_sign_in/apple_sign_in.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -13,7 +14,18 @@ void main() async {
   await Firebase.initializeApp();
   await RemoteConfigInit.initRemoteConfig();
 
+  AuthService.appleSignInAvailable = await AppleSignInAvailable.check();
+
   runApp(const MyApp());
+}
+
+class AppleSignInAvailable {
+  AppleSignInAvailable(this.isAvailable);
+  final bool isAvailable;
+
+  static Future<AppleSignInAvailable> check() async {
+    return AppleSignInAvailable(await AppleSignIn.isAvailable());
+  }
 }
 
 class MyApp extends StatelessWidget {
