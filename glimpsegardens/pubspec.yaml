@@ -68,7 +68,7 @@ dependencies:
   permission_handler: ^8.1.2
   flutter_switch: ^0.3.2
   carousel_slider: ^4.0.0
-  # google_sign_in: ^5.2.1
+  google_sign_in: ^5.2.1
   flutter_icons: ^1.1.0
   # in_app_purchase: ^1.0.9 # Potential Unuse.
   video_thumbnail: ^0.4.3
