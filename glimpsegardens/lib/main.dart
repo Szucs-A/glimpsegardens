@@ -23,8 +23,8 @@ class AppleSignInAvailable {
   AppleSignInAvailable(this.isAvailable);
   final bool isAvailable;
 
-  static Future<AppleSignInAvailable> check() async {
-    return AppleSignInAvailable(await AppleSignIn.isAvailable());
+  static Future<bool> check() async {
+    return await AppleSignIn.isAvailable();
   }
 }
 

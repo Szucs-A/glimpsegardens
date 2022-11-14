@@ -14,7 +14,7 @@ import 'package:glimpsegardens/screens/maps.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 
 class AuthService {
-  static var appleSignInAvailable;
+  static bool appleSignInAvailable;
 
   final fba.FirebaseAuth _auth = fba.FirebaseAuth.instance;
 
