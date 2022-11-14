@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:glimpsegardens/screens/start_up/splash.dart';
 import 'package:glimpsegardens/services/auth.dart';
+import 'package:glimpsegardens/services/remote_config.dart';
 import 'package:provider/provider.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:glimpsegardens/models/user.dart';
@@ -10,7 +11,7 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
   await Firebase.initializeApp();
-  // await RemoteConfigInit.initRemoteConfig();
+  await RemoteConfigInit.initRemoteConfig();
 
   runApp(const MyApp());
 }
