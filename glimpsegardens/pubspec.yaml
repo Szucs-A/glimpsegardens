@@ -52,7 +52,7 @@ dependencies:
   url_launcher: ^6.0.9
   # flutter_facebook_auth: ^3.5.3
   image_cropper: ^1.4.1
-  # apple_sign_in: ^0.1.0
+  apple_sign_in: ^0.1.0
   share_plus: ^3.0.4
   flutter_datetime_picker: ^1.5.1 # Has been abandoned, use CupertinoDatePicker. TODO:
   firebase_remote_config: ^0.11.0+2
